@@ -1,0 +1,70 @@
+
+  body {
+    font-family: sans-serif;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+
+  form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  input[type="checkbox"] + label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  button {
+    padding: 8px 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+    .radio-group { 
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+
+  }
+
+  .radio-group label {
+    margin-left: 5px; 
+    height: 10px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    width: 400px; 
+    height: 200px; 
+    margin-bottom: 20px;
+    object-fit: cover; 
+  }
